@@ -41,18 +41,19 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
 ## library versions used
 
-numpy==1.26.4 /       
-pandas==1.5.3  /        
-scikit-learn==1.6.0  /       
-tensorflow==your_version   /        
-torch==2.5.1+cu118   /        
-torchvision==0.20.1+cu118   /         
-matplotlib==3.9.2   /          
-scipy==1.10.1   /         
-Pillow==9.5.0   /           
-tqdm==4.66.6    /             
-joblib==1.2.0   /               
-streamlit==1.21.0  /               
-flask==2.2.2   /                 
+numpy==1.26.4        
+pandas==1.5.3          
+scikit-learn==1.6.0                 
+tensorflow==your_version              
+torch==2.5.1+cu118            
+torchvision==0.20.1+cu118             
+matplotlib==3.9.2              
+scipy==1.10.1             
+Pillow==9.5.0               
+tqdm==4.66.6                  
+joblib==1.2.0                   
+streamlit==1.21.0                  
+flask==2.2.2                     
 
+These are some library versions used for the project.
 For a full list of dependencies, refer to `requirements.txt`.
