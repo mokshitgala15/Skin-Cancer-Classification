@@ -40,11 +40,12 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 11. Making sure the path is correct again, enter command "node index.js" in the terminal
 12. The server will start and you can access the web interface by going to "http://localhost:3000"
 13. Click a photo of your naked hand with good lighting and upload the image to the website.
-14. For sample images we have included a folder named "sample_images" you can use those or upload your own skin images to get the results.
+14. For sample images we have included a folder named "sample_images", you can use those or upload your own skin images to get the results.
 15. Make sure you use "http", and not "https" for accessing the web as it may not function as intended.
 16. You can upload images of skin lesions and get the classification result in real-time.
 17. Also to assist the users we have included an FAQ section in the About Page of our website so that any common queries could be answered.              
-18. Please use the page to assist yourself in using the website and how to get results by uploading images or skin lesions.                
+18. Please use the page to assist yourself in using the website and how to get results by uploading images or skin lesions.               
+19. If you want to access this website using mobile phone to capture realtime images use the following website link ("https://skinvision-ai.onrender.com/")
 
 ## library versions used
 
