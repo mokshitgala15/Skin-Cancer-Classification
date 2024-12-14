@@ -1,9 +1,5 @@
 <h1 align="center">Skin Cancer Classification using Computer Aided Diagnosis</h1>
 
-# Abstract
-
-Skin cancer is a prevalent type of cancer worldwide, and early diagnosis is critical for effective treatment. Our system uses a deep learning model trained on a vast dataset of skin images to classify skin cancer into its different types.The system can be accessed through a user-friendly web interface, where users can upload skin images and receive a diagnosis in real-time. Our skin cancer classification system has the potential to improve early detection rates and enhance patient outcomes.After integrating in workflow Dermatologists and healthcare professionals can make more informed decisions about the diagnosis and treatment of skin lesions.
-
 # Introduction
 
 Skin cancer is a serious and growing health concern, affecting millions of people worldwide. Early detection and accurate diagnosis are crucial for improving patient outcomes, yet current diagnostic methods can be time-consuming and error-prone. This is where machine learning comes in - by leveraging large amounts of data and powerful algorithms, machine learning has the potential to revolutionize the field of skin cancer classification.
@@ -32,7 +28,7 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 3. Refer this link for downloading node ("https://nodejs.org/en")
 4. For detailed steps follow this link on how to install node.js ("https://nodejs.org/en/download/package-manager")
 5. After downloading node.js, run the command "Get-ExecutionPolicy".
-6. If output is restricted then, Open Windows Powershell as Administrator and run the command "Set-ExecutionPolicy Unrestricted". The Output for "Get-ExecutionPolicy" should change to unrestricted.
+6. If output is restricted then, Open Windows Powershell as Administrator and run the command "Set-ExecutionPolicy Unrestricted". The Output for "Get-ExecutionPolicy" should change to unrestricted. For reference you can use this link ("https://youtu.be/ChRef6Z8UD4?feature=shared")
 7. Extract the folder and run it in an IDE (for eg: VS Code).
 8. Open a new terminal and make sure your path is correct (....\skin-cancer-classification-main)
 9. In the terminal write "npm install" or "npm i". 
