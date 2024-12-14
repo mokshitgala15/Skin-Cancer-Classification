@@ -28,23 +28,29 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
 ## Steps to run this Repository
 1. Download the zip folder in your system / device.
-2. Extract the folder and run it in an IDE (for eg: VS Code).
-3. Open a new terminal and make sure your path is correct (....\skin-cancer-classification-main)
-4. In the terminal write "npm install" or "npm i". 
-5. After installing dependencies if there are any issues or vulnerablities then in the terminal write "npm audit fix --force". This should resolve any issues in dependencies.
-6. Making sure the path is correct again, enter command "node index.js" in the terminal
-7. The server will start and you can access the web interface by going to "http://localhost:3000"
-8. Make sure you use "http", and not "https" for accessing the web as it may not function as intended.
-9. You can upload images of skin lesions and get the classification result in real-time.
-10. Also to assist the users we have included an FAQ section in the About Page of our website so that any common queries could be answered. 
-11. Please use the page to assist yourself in using the website and how to get results by uploading images or skin lesions.
+2. Download node.js from your default browser, (Node.js v22.12.01)
+3. Refer this link for downloading node ("https://nodejs.org/en")
+4. For detailed steps follow this link on how to install node.js ("https://nodejs.org/en/download/package-manager")
+5. After downloading node.js, run the command "Get-ExecutionPolicy".
+6. If output is restricted then, Open Windows Powershell as Administrator and run the command "Set-ExecutionPolicy Unrestricted". The Output for "Get-ExecutionPolicy" should change to unrestricted.
+7. Extract the folder and run it in an IDE (for eg: VS Code).
+8. Open a new terminal and make sure your path is correct (....\skin-cancer-classification-main)
+9. In the terminal write "npm install" or "npm i". 
+10. After installing dependencies if there are any issues or vulnerablities then in the terminal write "npm audit fix --force". This should resolve any issues in dependencies.
+11. Making sure the path is correct again, enter command "node index.js" in the terminal
+12. The server will start and you can access the web interface by going to "http://localhost:3000"
+13. Click a photo of your naked hand with good lighting and upload the image to the website.
+14. For sample images we have included a folder named "sample_images" you can use those or upload your own skin images to get the results.
+15. Make sure you use "http", and not "https" for accessing the web as it may not function as intended.
+16. You can upload images of skin lesions and get the classification result in real-time.
+17. Also to assist the users we have included an FAQ section in the About Page of our website so that any common queries could be answered.              
+18. Please use the page to assist yourself in using the website and how to get results by uploading images or skin lesions.                
 
 ## library versions used
 
 numpy==1.26.4        
 pandas==1.5.3          
-scikit-learn==1.6.0                 
-tensorflow==your_version              
+scikit-learn==1.6.0                               
 torch==2.5.1+cu118            
 torchvision==0.20.1+cu118             
 matplotlib==3.9.2              
